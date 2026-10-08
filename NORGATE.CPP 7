@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[5]={1,0,1,0,1};
+int b[5]={0,1,1,0,0};
+int i,ans;
+for (i=0;i<5;i++)
+{
+ans=!(a[i]+b[i]);
+printf("\n%d NOR %d=%d",a[i],b[i],ans);
+}
+getch();
+}
+
+C:\TURBOC3\BIN>TC                                                               
+                                                                                
+1 NOR 0=0                                                                       
+0 NOR 1=0                                                                       
+1 NOR 1=0                                                                       
+0 NOR 0=1                                                                       
+1 NOR 0=0                                                                       
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
